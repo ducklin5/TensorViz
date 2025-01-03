@@ -1,0 +1,23 @@
+{
+  "name": "TensorViz",
+  "version": "1.0.0",
+  "description": "Tensor Visualizer",
+  "keywords": [
+    "p5js",
+    "typescript"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "npx parcel",
+    "build": "npx parcel build"
+  },
+  "source": "index.html",
+  "dependencies": {
+    "@types/p5": "0.9.0",
+    "p5": "0.9.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.13.3",
+    "parcel": "2.13.3"
+  }
+}
